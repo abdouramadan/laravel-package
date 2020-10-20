@@ -1,0 +1,88 @@
+.mainHeader{
+    height: 100vh;
+    background-color: var(--color-light);
+
+    // MAIN NAVBAR
+    .mainNavbar {
+        height: 70px;
+        border-bottom: 1px solid rgba(black,0.1);
+
+        .navbar-brand {
+            color: var(--color-main);
+            border-radius: 30px;
+            border: 1px solid var(--color-main);
+            height: 45px;
+            width: 100px;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                margin-left: 1rem;
+
+                .nav-link {
+                    color: var(--color-dark);
+                    color: var(--color-black-sec);
+                    font-weight: 300;
+
+                    &:hover {
+                        color: var(--color-main);
+                    }
+                }
+
+                &:last-of-type {
+                    .nav-link {
+                        background-color: var(--color-main);
+                        color: var(--color-white);
+                        width: 100px;
+                        height: 45px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        border-radius: 30px;
+                        // box-shadow: inset 3px 3px 3px #b9b143, inset -3px -3px 3px #c5bc54;
+                    }
+                }
+            }
+        }
+    }
+
+    // HOME BANNER
+    .homeBanner {
+        height: calc(100vh - 70px);
+        background-color: #e2e2e2;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.651)), url("../img/banner.jpg");
+        background-size: cover;
+        background-position: center;
+
+        .container {
+            .bannerText {
+                width: 65%;
+
+                h1 {
+                    color: var(--color-light);
+                }
+
+                .extraLinks {
+                    .link {
+                        width: 140px;
+                        height: 45px;
+                        border-radius: 30px;
+
+                        &:first-of-type {
+                            background-color: var(--color-main);
+                            color: var(--color-light);
+                            font-weight: 300;
+                        }
+
+                        &:last-of-type {
+                            background-color: var(--color-white);
+                            color: var(--color-black-sec);
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

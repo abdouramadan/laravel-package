@@ -1,0 +1,95 @@
+/* About Me Section's Style */
+.aboutMe {
+    padding-top: 5rem;
+    background-color: var(--color-light);
+
+    .container {
+
+        // about image
+        .aboutImg {
+            height: 450px;
+            width: 45%;
+
+            span {
+                top: 0;
+                right: 0;
+                background-color: var(--color-main);
+                width: 150px;
+                height: 45px;
+                z-index: 3;
+                color: var(--color-light);
+            }
+
+            img {
+                z-index: 2;
+                position: relative;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: -1.5rem;
+                bottom: -1.5rem;
+                width: 300px;
+                height: 300px;
+                // background-color: var(--color-main);
+                border: 5px solid var(--color-main);
+                z-index: 1;
+            }
+        }
+
+        // about text
+        .aboutText {
+            width: 55%;
+
+            h2 {
+                font-weight: bold;
+                color: var(--color-black);
+                font-size: 1.7rem;
+            }
+
+            p {
+                line-height: 1.8;
+                color: var(--color-dark-sec);
+                font-size: 1.1rem;
+            }
+
+            .cvLink {
+                width: 140px;
+                height: 45px;
+                border-radius: 30px;
+                background-color: var(--color-white);
+                color: var(--color-main);
+                border: 1px solid;
+            }
+        }
+    }
+
+    // count up
+    .countUp {
+        height: 350px;
+        background-image: linear-gradient(to right, rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url("../img/countUp.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        margin-top: 6rem;
+
+        .item {
+            span {
+                color: var(--color-light);
+
+                &:first-of-type {
+                    font-size: 3rem;
+                }
+
+                &:nth-of-type(2) {
+                    font-size: 1.4rem;
+                }
+
+                &:last-of-type {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
