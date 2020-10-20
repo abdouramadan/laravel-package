@@ -268,7 +268,7 @@
             </div>
 
             {{-- services item's container --}}
-            <div class="servicesContainer d-flex align-items-center justify-content-between flex-wrap">
+            <div class="servicesItemsContainer d-flex align-items-center justify-content-between flex-wrap">
                 <!-- item 01 -->
 				<div class="item d-flex justify-content-start align-items-center">
 					<div class="icon">
@@ -343,5 +343,105 @@
 				</div>
             </div>
 		</div>
-	</section>
+    </section>
+
+    {{-- my work --}}
+    <section class="myWork">
+        <div class="container">
+            <!-- text__intro -->
+			<div class="textIntro border-0">
+				<h2 class="text-capitalize d-flex">
+                    <span class="d-flex align-items-center justify-content-center mr-2"><ion-icon name="briefcase-outline"></ion-icon></span>
+                    my <span>work</span>
+                </h2>
+				<h3 class="text-capitalize">see some of my awesome work</h3>
+            </div>
+
+			<!-- tabs__navbar -->
+			<ul class="nav nav-tabs mt-4">
+				<li class="nav-item">
+					<a href="" class="nav-link active text-capitalize text-decoration-none">all</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link text-capitalize text-decoration-none">web design</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link text-capitalize text-decoration-none">graphic design</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link text-capitalize text-decoration-none">motion graphics</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link text-capitalize text-decoration-none">logo</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link text-capitalize text-decoration-none">photography</a>
+				</li>
+            </ul>
+
+            {{-- work item's container --}}
+            <div class="workItemsContainer d-flex align-items-center justify-content-center flex-wrap">
+                <!-- item 01 -->
+				<div class="item position-relative">
+					<div class="img w-100 h-100">
+						<img class="w-100 h-100" src="http://abdoudev.tk/abdoudev/img/001.jpg" alt="my__work">
+					</div>
+					<div class="info position-absolute d-flex justify-content-center align-items-center flex-column">
+						<span class="d-flex justify-content-center align-items-center"><i class="lni lni-search-alt"></i></span>
+						<p class="d-block mt-2 text-capitalize">my work</p>
+					</div>
+				</div>
+				<!-- item 02 -->
+				<div class="item position-relative">
+					<div class="img w-100 h-100">
+						<img class="w-100 h-100" src="http://abdoudev.tk/abdoudev/img/002.jpg" alt="my__work">
+					</div>
+					<div class="info position-absolute d-flex justify-content-center align-items-center flex-column">
+						<span class="d-flex justify-content-center align-items-center"><i class="lni lni-search-alt"></i></span>
+						<p class="d-block mt-2 text-capitalize">my work</p>
+					</div>
+				</div>
+				<!-- item 03 -->
+				<div class="item position-relative">
+					<div class="img w-100 h-100">
+						<img class="w-100 h-100" src="http://abdoudev.tk/abdoudev/img/003.jpg" alt="my__work">
+					</div>
+					<div class="info position-absolute d-flex justify-content-center align-items-center flex-column">
+						<span class="d-flex justify-content-center align-items-center"><i class="lni lni-search-alt"></i></span>
+						<p class="d-block mt-2 text-capitalize">my work</p>
+					</div>
+				</div>
+				<!-- item 04 -->
+				<div class="item position-relative">
+					<div class="img w-100 h-100">
+						<img class="w-100 h-100" src="http://abdoudev.tk/abdoudev/img/004.jpg" alt="my__work">
+					</div>
+					<div class="info position-absolute d-flex justify-content-center align-items-center flex-column">
+						<span class="d-flex justify-content-center align-items-center"><i class="lni lni-search-alt"></i></span>
+						<p class="d-block mt-2 text-capitalize">my work</p>
+					</div>
+				</div>
+				<!-- item 05 -->
+				<div class="item position-relative">
+					<div class="img w-100 h-100">
+						<img class="w-100 h-100" src="http://abdoudev.tk/abdoudev/img/006.jpg" alt="my__work">
+					</div>
+					<div class="info position-absolute d-flex justify-content-center align-items-center flex-column">
+						<span class="d-flex justify-content-center align-items-center"><i class="lni lni-search-alt"></i></span>
+						<p class="d-block mt-2 text-capitalize">my work</p>
+					</div>
+				</div>
+				<!-- item 06 -->
+				<div class="item position-relative">
+					<div class="img w-100 h-100">
+						<img class="w-100 h-100" src="http://abdoudev.tk/abdoudev/img/003.jpg" alt="my__work">
+					</div>
+					<div class="info position-absolute d-flex justify-content-center align-items-center flex-column">
+						<span class="d-flex justify-content-center align-items-center"><i class="lni lni-search-alt"></i></span>
+						<p class="d-block mt-2 text-capitalize">my work</p>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
 @endsection
